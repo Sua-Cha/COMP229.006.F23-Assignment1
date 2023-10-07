@@ -13,12 +13,27 @@
     <p> P H O N E : </p> -->
 
     <main>
-        <section>
-          <h2>Who Am I?</h2>
-          <p>
-            I'm [Your Name], a passionate [Your Profession] based in [Your Location]. I love [Your Interests/Hobbies] and enjoy [Any Other Relevant Information].
-          </p>
+        <section class="contact-form">
+          <h2>Send me a message</h2>
+          <form action="mailto:scha8@my.centennialcollege.ca" method="post">
+            <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="contactNumber">Contact Number:</label>
+        <input type="tel" id="contactNumber" name="contactNumber" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+          </form>
         </section>
-      
       </main>
+      <br><br><br>
 <% include partials/footer.ejs %>
