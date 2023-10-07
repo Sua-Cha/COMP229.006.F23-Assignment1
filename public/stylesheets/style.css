@@ -1,5 +1,5 @@
 
-/* Sua Cha 301271420  */
+/* COMP229.006.F23 Sua Cha 301271420 2023-10-07 */
 
 body {
   font-family: Arial, sans-serif;
@@ -84,7 +84,7 @@ footer p {
 }
 
 header {
-  background-color: #dddbc7;
+  background-color: #e3caf0;
   color: #fff;
   padding: 40px;
   text-align: center;
@@ -141,7 +141,7 @@ input, textarea {
 }
 
 button {
-  background-color: #c4c277;
+  background-color: #9a9a99;
   color: #fff;
   border: none;
   padding: 10px 20px;
