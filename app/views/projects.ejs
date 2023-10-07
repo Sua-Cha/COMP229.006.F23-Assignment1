@@ -1,30 +1,66 @@
+<!-- Sua Cha 301271420   -->
 <% include partials/header.ejs %>
 
-<header>
-  <div id="logo-container">
+  <header>
+    <div id="logo-container">
       <!-- <img src="/images/suafromk.png" alt="Profile Picture"> -->
       <h1>
-          <%= title %>
+        <%= title %>
       </h1>
 
-  </div>
-</header>
-<main>
-  <section class="project">
-    <h2>Project 1: Awesome Web App</h2>
-    <img src="project1.jpg" alt="Project 1 Image">
-    <p>
-      This is an awesome web app that I developed. It features a sleek user interface and advanced functionalities.
-    </p>
-  </section>
+    </div>
+  </header>
+  <main>
 
-  <section class="project">
-    <h2>Project 2: Mobile App Development</h2>
-    <img src="project2.jpg" alt="Project 2 Image">
-    <p>
-      I worked on a mobile app project that involved creating a cross-platform application using React Native. The app is designed for both iOS and Android platforms.
-    </p>
-  </section>
-</main>
+    <!-- List of the projects -->
+    <section class="project">
 
-<% include partials/footer.ejs %>
+      <section class="home-content">
+
+        <div class="left-section">
+          <img src="/images/suaproject1.jpg" alt="Project 1 Image">
+        </div>
+        <div class="right-section">
+          <h2>Project 1: Awesome Web App</h2>
+          <p>
+            This is an awesome web app that I developed. It features a sleek user interface and advanced
+            functionalities.
+          </p>
+        </div>
+      </section>
+    </section>
+
+    <section class="project">
+      <section class="home-content">
+        <div class="left-section">
+          <img src="/images/suaproject2.jpg" alt="Project 1 Image">
+        </div>
+        <div class="right-section">
+          <h2>Project 2: Mobile App Development</h2>
+          <p>
+            I worked on a mobile app project that involved creating a cross-platform application using React Native. The
+            app is designed for both iOS and Android platforms.
+          </p>
+        </div>
+      </section>
+    </section>
+
+
+    <section class="project">
+      <section class="home-content">
+        <div class="left-section">
+          <img src="/images/suaproject3.jpg" alt="Project 1 Image">
+        </div>
+        <div class="right-section">
+          <h2>Project 3: Finance App </h2>
+          <p>
+            Finance app designed to empower users in managing their personal finances effectively. Through intuitive expense tracking and smart budgeting features, users can gain insights into their spending habits and effortlessly set and achieve financial goals. The app's investment management tools provide real-time market data and personalized suggestions, making it a valuable resource for optimizing investment portfolios.
+          </p>
+        </div>
+      </section>
+    </section>
+
+
+  </main>
+
+  <% include partials/footer.ejs %>
