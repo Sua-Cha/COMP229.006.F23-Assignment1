@@ -7,7 +7,7 @@ body {
 }
 
 #menu {
-  background-color: #c497e6;
+  background-color: rgb(0, 0, 0);
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -67,7 +67,7 @@ body {
 }
 
 footer {
-  background-color: #333;
+  background-color: #000000;
   color: #fff;
   text-align: center;
   padding: 10px;
@@ -81,7 +81,7 @@ footer p {
 }
 
 header {
-  background-color: #ddbff1;
+  background-color: #dddbc7;
   color: #fff;
   padding: 40px;
   text-align: center;
@@ -138,10 +138,37 @@ input, textarea {
 }
 
 button {
-  background-color: #c497e6;
+  background-color: #c4c277;
   color: #fff;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 4px;
+}
+
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px auto 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.left-section {
+  flex-basis: 40%; /* Adjust the width of the left section */
+}
+
+.profile-picture {
+  width: 100%;
+  border-radius: 50%; /* Make the image circular */
+}
+
+.right-section {
+  flex-basis: 55%; /* Adjust the width of the right section */
+}
+
+.right-section h1 {
+  color: #333;
 }
