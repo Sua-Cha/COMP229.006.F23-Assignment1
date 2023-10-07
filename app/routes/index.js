@@ -10,15 +10,12 @@ router.get('/', function(req, res, next) {
   );
 });
 
-router.get('/homepage', function(req, res, next) {
-  res.render('homepage', { title: 'H O M E P A G E ' });
-});
-router.get('/aboutme', function(req, res, next) {
-  res.render('aboutme', { title: 'A B O U T - M E ' });
+router.get('/about', function(req, res, next) {
+  res.render('index', { title: 'About' });
 });
 
-router.get('/projects', function(req, res, next) {
-  res.render('projects', 
+router.get('/products', function(req, res, next) {
+  res.render('products', 
   { 
     product: 'Products',
     title: 'Phone'
